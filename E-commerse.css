@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbars{
+    position:sticky ;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background-color:#0F1111;
+    z-index: 100;
+
+}
+#name{
+    padding-top: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #18DFD2;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:#18DFD2;
+}
+#signin{
+    padding: 10px;
+    background-color: #18DFD2;
+    color: #0F1111;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+#navbarSupportedContent ul li a:hover{
+    border-bottom: 1px solid #18DFD2;
+}
+/* part section */
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(main\ pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+section h1{
+    color: #18DFD2;
+    text-align: center;
+    font-weight: bolder;
+}
+section p{
+    color: white;
+    text-align: center;
+}
+#search{
+    height: 40px;
+    width: 250px;
+    outline: none;
+    border-radius:10px;
+    border: none;
+    border: 2px solid #18DFD2;
+    
+}
+:placeholder-shown{
+   text-align: center;
+}
+
+.box img{
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#about{
+    padding: 20px 30px;
+    margin-top: 30px;
+
+}
+#about .box2 p{
+     text-align: justify;
+     margin: 30px;
+}
+
+#about h1{
+    text-align: center;
+    color: #18DFD2;
+}
+#product h1{
+    text-align: center;
+    color: #18DFD2;
+    margin-bottom: 10px;
+}
+.card{
+
+padding-top: 10px;
+margin: 10px;
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    margin: 15px 0px;
+}
+.card img{
+    height: 300px;
+    width: 300px;
+    align-self: center;
+}
+.card p{
+  text-align: justify;
+}
+.card h5{
+    text-align: center;
+}
+
+.card .btn{
+
+background-color:#0F1111;
+color: #18DFD2;
+}
+.card .btn:hover{
+  background-color: #0F1111;
+  color: #fff;
+}
+.card:hover{
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+form button{
+    width: 50%;
+    background-color: #0F1111;
+    color: #18DFD2;
+    padding: 5px;
+    border-radius:  6px;
+    font-size: 20px;
+    margin-left: 26%;
+}
+form button:hover{
+    background-color: #0F1111;
+    color: white;
+}
+.contactus{
+    margin-top: 30px;
+}
+#contactus h1 {
+    text-align: center;
+    color:#18DFD2 ;
+}
+.forms{
+padding-top:80px ;
+
+}
+form{
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   padding: 50px 7px;
+   border: 1px solid #393d3d;
+}
+
+
+.contact1 img {
+    border-radius: 10px;
+    width: 90%;
+    height: 380px;
+   margin: 7%;
+   margin-top: 60px;
+   
+}
+
+/*  */
+#review h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #18DFD2;
+}
+.card-header img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.card-header{
+    display: flex;
+}
+.card-header .part{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.rev{
+    max-height: 700px; 
+   
+}
+footer{
+    padding: 20px 20px;
+    background-color: #0F1111;
+    color: #18DFD2;
+    text-align: center;
+}
